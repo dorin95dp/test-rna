@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TestRNA' do
+  pod 'AppCenter/Crashes', '~> 1.13.2'
+  pod 'AppCenter/Analytics', '~> 1.13.2'
+  pod 'AppCenterReactNativeShared', '~> 1.12.2'
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TestRNA
+
+  
+
+  platform :ios, '9.0'
+  target 'TestRNATests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'TestRNA-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TestRNA-tvOS
+
+  target 'TestRNA-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
